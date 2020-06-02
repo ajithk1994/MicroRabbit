@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Domain.Core", "MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj", "{84B54CDC-EF43-4BFF-87C8-A6DCF7799D17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{119F345D-7361-46E8-B646-AFC99DFE584D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{119F345D-7361-46E8-B646-AFC99DFE584D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.IoC", "MicroRabbit.Infra.IoC\MicroRabbit.Infra.IoC.csproj", "{FE6C4A3B-0FEB-44E1-8CA5-56A7E320793D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{119F345D-7361-46E8-B646-AFC99DFE584D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{119F345D-7361-46E8-B646-AFC99DFE584D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{119F345D-7361-46E8-B646-AFC99DFE584D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6C4A3B-0FEB-44E1-8CA5-56A7E320793D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6C4A3B-0FEB-44E1-8CA5-56A7E320793D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6C4A3B-0FEB-44E1-8CA5-56A7E320793D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6C4A3B-0FEB-44E1-8CA5-56A7E320793D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{84B54CDC-EF43-4BFF-87C8-A6DCF7799D17} = {80BD55DA-FAC9-4F44-AE21-00FE7E15718D}
 		{119F345D-7361-46E8-B646-AFC99DFE584D} = {89415213-2624-47AD-9D97-6FFD9F084A73}
+		{FE6C4A3B-0FEB-44E1-8CA5-56A7E320793D} = {43157336-B903-4D01-AD2D-24B75B56B1DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9182217E-CCC2-498C-AEAF-026E93E64D86}
